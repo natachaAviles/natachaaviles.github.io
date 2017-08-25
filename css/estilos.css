@@ -1,0 +1,192 @@
+.row{
+  margin-bottom: 0;
+}
+nav{
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+
+}
+nav ul li a{
+  color:#2A363B;
+}
+#main{
+  background: url(../img/note.jpeg);
+  background-size: cover;
+  background-position: -40 center;
+  padding:150px 0;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 7em;
+  color: #000000;
+
+}
+h4{
+ font-family: 'Lato', sans-serif;
+ font-family: 'Sacramento', cursive;
+ font-size: 3em;
+ color:#F9145A;
+
+}
+#about{
+  font-family: 'Lato', sans-serif;
+  background-color:#F9145A;
+  color: white;
+  padding:150px 0;
+  font-size:1.2em;
+}
+.title-about{
+  color:white;
+  text-align: center;
+
+}
+.profile-photo{
+  height: 200px;
+  width: auto;
+}
+
+.icon-about{
+  font-size: 2.5em;
+  text-align: center;
+  margin-right:40px;
+}
+
+#skills{
+  padding-top:50px;
+  font-size: 1em;
+}
+.skills-title{
+  margin-bottom:50px;
+  font-family: 'Lato', sans-serif;
+  color:#2A363B;
+  font-weight: bold;
+}
+.personal-skills{
+  background-color: white;
+  color:#F9145A;
+  font-family: 'Lato', sans-serif;
+}
+
+.other-tools{
+  margin-top:135px;
+  background-color: #2A363B;
+  color: #F9145A;
+  padding:25px 0;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.devicon{
+  font-size:2.8em;
+}
+
+.projects-title{
+  font-family: 'Lato', sans-serif;
+  color:#2A363B;
+  margin:50px 0;
+  font-weight: bold;
+}
+
+.card-action{
+  background-color: #2A363B !important;
+}
+.card-action .btn{
+  background-color: #F9145A;
+  color:white;
+
+}
+footer{
+  background-color: #F9145A;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding:100px 0;
+}
+.icons-container{
+   margin-top:30px;
+}
+.footer-icon{
+  font-size: 2em;
+  margin:10px;
+}
+.developed-by{
+  color: #F9145A;
+  font-family: 'Lato', sans-serif;
+  border-top:1px solid #F9145A;
+}
+#download{
+  background-color: #2A363B; 
+}
+/*SKILLS BAR*/
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:30px;
+  width:100%;
+  background:#eee;
+  height:12px;
+  border-radius:0px;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  width:110px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:12px;
+  line-height:12px;
+  -webkit-border-top-left-radius:px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+}
+
+.skillbar-bar {
+  height:12px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:12px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+/*TERMINO SKILLS BAR*/
