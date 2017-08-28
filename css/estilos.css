@@ -14,6 +14,9 @@ nav .brand-logo {
   color:#F9145A;
 }
 
+.menu{
+    color:#2A363B;
+}
 #main{
   background: url(../img/code.jpg);
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(../img/code.jpg);
