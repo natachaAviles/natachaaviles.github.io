@@ -9,39 +9,26 @@ nav{
 nav ul li a{
   color:#2A363B;
 }
-nav .brand-logo{
+
+nav .brand-logo {
   color:#F9145A;
 }
 
-.button-collapse{
- color:#2A363B;
-}
-
-.side-nav a{
- font-family: 'Lato', sans-serif;
- font-size:1.1em;
- margin-top:10px;
-}
-
-
 #main{
-  background: url(../img/deskt.jpeg);
+  background: url(../img/code.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(../img/code.jpg);
   background-size: cover;
-  background-position: center center;
-  padding-bottom:250px;
-  background-repeat: no-repeat;
+  background-position: -40 center;
+  padding:150px 0;
 }
-
 h1{
- font-family: 'Raleway', sans-serif;
- font-weight: bold;
- font-size: 5em;
- color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 7em;
+  color: white;
 
 }
 h4{
- font-family: 'Lato', sans-serif;
- font-family: 'Sacramento', cursive;
+ font-family: 'Sacramento', sans-serif;
  font-size: 3em;
  color:#F9145A;
 
@@ -50,7 +37,7 @@ h4{
   font-family: 'Lato', sans-serif;
   background-color:#F9145A;
   color: white;
-  padding:100px 0;
+  padding:150px 0;
   font-size:1.2em;
 }
 .title-about{
@@ -65,7 +52,8 @@ h4{
 
 .icon-about{
   font-size: 2.5em;
-  margin:0 10px;
+  text-align: center;
+  margin-right:40px;
 }
 
 #skills{
@@ -118,11 +106,11 @@ footer{
   color: white;
   padding:100px 0;
 }
-footer h5{
-  font-size:1.3em;
+footer a{
+  color:white;
 }
 .icons-container{
- margin-top:30px;
+   margin-top:30px;
 }
 .footer-icon{
   font-size: 2em;
@@ -135,9 +123,6 @@ footer h5{
 }
 #download{
   background-color: #2A363B; 
-}
-footer a{
-  color:white;
 }
 /*SKILLS BAR*/
 .skillbar {
